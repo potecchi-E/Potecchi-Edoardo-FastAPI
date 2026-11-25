@@ -1,0 +1,40 @@
+/* style.css - l'aspetto delle pagine: copialo così com'è */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+h1 {
+  color: #1f4e79;
+}
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  font-size: 16px;
+  color: white;
+  background: #1f4e79;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#risultato {
+  margin-top: 24px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.errore {
+  color: #c00000;
+}
