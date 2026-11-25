@@ -8,3 +8,6 @@ app = FastAPI()
 def ping():
     return {"risposta": "pong"}
 
+@app.get("/pong")
+def pong():
+    return {"risposta": "ping"}
