@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ping-pong con il server</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Ping-pong con il server</h1>
+    <p>
+      Scrivi «ping» e premi il pulsante: la pagina manda la parola al server e
+      il server risponde.
+    </p>
+    <form id="modulo">
+      <label for="parola">Il tuo colpo</label>
+      <input type="text" id="parola" required />
+      <button type="submit">Colpisci</button>
+    </form>
+    <p id="risultato"></p>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
